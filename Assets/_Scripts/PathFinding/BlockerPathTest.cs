@@ -29,7 +29,7 @@ public class BlockerPathTest : MonoBehaviour
         AstarPath.StartPath(path);
         path.BlockUntilCalculated();
         //Moves towards target (NEEDS TO FOLLOW PATH)
-        transform.position = Vector3.MoveTowards(transform.position, target.position, Time.deltaTime * movementPoints);
+        transform.position = Vector3.MoveTowards(transform.position, path.vectorPath[1], Time.deltaTime * movementPoints);
 
         if (path.error)
         {

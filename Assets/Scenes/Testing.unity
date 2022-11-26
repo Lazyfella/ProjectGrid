@@ -455,6 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01927067b74514c40903eec863f8f3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementPoints: 2
   blockManager: {fileID: 1022647253}
   obstacles:
   - {fileID: 1640448070}
